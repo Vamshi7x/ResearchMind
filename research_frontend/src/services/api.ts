@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://researchmind-ai-qinm.onrender.com/';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://researchmind-ai-qinm.onrender.com';
 
 export interface ResearchRequest {
   topic: string;
